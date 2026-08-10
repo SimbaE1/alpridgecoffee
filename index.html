@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alpine Ridge Coffee Roasters — Fictional Café, Antarctica</title>
+<meta name="description" content="A demonstration website for Alpine Ridge Coffee Roasters, a fictional coffee shop set in Antarctica. Created for software testing. Not a real business.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="notice" role="note">
+  <strong>Demonstration site.</strong> Alpine Ridge Coffee Roasters is a <em>fictional</em> business invented for software testing. There is no café, no coffee, and nothing on this page is for sale.
+</div>
+
+<header class="site-head">
+  <a class="brand" href="#top">
+    <span class="brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 64 64" width="34" height="34"><circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="1.25" opacity=".55"/><path d="M14 42 L26 22 L33 33 L38 26 L50 42 Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M14 47 H50" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" opacity=".55"/><circle cx="32" cy="15" r="2.25" fill="currentColor" opacity=".7"/></svg>
+    </span>
+    <span class="brand-text">
+      <span class="brand-name">Alpine Ridge</span>
+      <span class="brand-sub">Coffee Roasters</span>
+    </span>
+  </a>
+  <nav aria-label="Primary">
+    <a href="#room">The Room</a>
+    <a href="#menu">Menu</a>
+    <a href="#sourcing">Sourcing</a>
+    <a href="#visit">Visit</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <img class="hero-art" src="assets/hero-glacier.svg" alt="Illustration of an aurora above a glacier ridge" loading="eager">
+    <div class="hero-inner">
+      <p class="eyebrow">Est. 20— · 77°51′S 166°40′E</p>
+      <h1>The last quiet café<br>on the continent.</h1>
+      <p class="lede">
+        Eighteen seats, one roaster, and a window that faces nothing but ice.
+        Alpine Ridge is a small room built for the two things that are genuinely
+        scarce down here: a decent cup, and somewhere warm to drink it.
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="#menu">See the menu</a>
+        <a class="btn btn-ghost" href="#visit">Plan a visit</a>
+      </div>
+      <p class="hero-foot">A fictional place. Pleasant to imagine, impossible to visit.</p>
+    </div>
+  </section>
+
+  <section class="strip" aria-label="At a glance">
+    <div class="strip-item"><span class="num">18</span><span class="cap">seats</span></div>
+    <div class="strip-item"><span class="num">1</span><span class="cap">roaster</span></div>
+    <div class="strip-item"><span class="num">−34°</span><span class="cap">outside, today</span></div>
+    <div class="strip-item"><span class="num">21°</span><span class="cap">inside, always</span></div>
+  </section>
+
+  <section id="room" class="split">
+    <div class="split-art">
+      <img src="assets/station.svg" alt="Illustration of a small stilted café building lit warmly against the snow" loading="lazy">
+    </div>
+    <div class="split-text">
+      <p class="eyebrow">The Room</p>
+      <h2>Simple, because everything else here isn't.</h2>
+      <p>
+        Plywood, wool, brass, and a very long bar. We took out the music, the
+        pastry case theatre, and most of the menu. What's left is a counter, a
+        kettle, and someone who has time to talk to you — which, at this latitude,
+        is the actual luxury.
+      </p>
+      <p>
+        The building sits on stilts so the drift passes underneath. The lamps stay
+        on through the polar night, which is roughly when we do our best business.
+      </p>
+      <ul class="ticks">
+        <li>No queue, ever — there are only so many people within 1,300 km.</li>
+        <li>Boots off at the door. Wool socks provided.</li>
+        <li>Open through the dark months.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="menu" class="menu">
+    <header class="section-head">
+      <p class="eyebrow">Menu</p>
+      <h2>Short by design</h2>
+      <p class="sub">Everything is made to order. Prices in fictional dollars.</p>
+    </header>
+
+    <div class="menu-grid">
+      <div class="menu-col">
+        <h3>Coffee</h3>
+        <dl>
+          <div class="row"><dt>Filter <span>single origin, brewed by the cup</span></dt><dd>5</dd></div>
+          <div class="row"><dt>Espresso <span>house roast, two sizes</span></dt><dd>4</dd></div>
+          <div class="row"><dt>Flat white <span>whole milk or oat</span></dt><dd>6</dd></div>
+          <div class="row"><dt>Long black <span>the one everyone orders</span></dt><dd>5</dd></div>
+          <div class="row"><dt>Cold brew <span>steeped 20 hours, served cold-ish</span></dt><dd>6</dd></div>
+        </dl>
+      </div>
+
+      <div class="menu-col">
+        <h3>Kitchen</h3>
+        <dl>
+          <div class="row"><dt>Rye toast <span>cultured butter, sea salt</span></dt><dd>7</dd></div>
+          <div class="row"><dt>Oat porridge <span>brown sugar, cream</span></dt><dd>9</dd></div>
+          <div class="row"><dt>Soup of the week <span>it is usually barley</span></dt><dd>11</dd></div>
+          <div class="row"><dt>Cardamom bun <span>baked at 04:00, gone by 09:00</span></dt><dd>6</dd></div>
+        </dl>
+      </div>
+
+      <div class="menu-col">
+        <h3>Goods</h3>
+        <dl>
+          <div class="row"><dt>Whole bean, 250 g <span>roasted on site</span></dt><dd>19</dd></div>
+          <div class="row"><dt>Enamel mug <span>survives a dropped crate</span></dt><dd>24</dd></div>
+          <div class="row"><dt>Wool watch cap <span>undyed, itchy, warm</span></dt><dd>38</dd></div>
+          <div class="row"><dt>Postcard <span>posts once a season</span></dt><dd>3</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section id="sourcing" class="sourcing">
+    <div class="sourcing-inner">
+      <div class="sourcing-text">
+        <p class="eyebrow">Sourcing</p>
+        <h2>"Locally sourced," with an asterisk</h2>
+        <p>
+          Nothing agricultural grows within 4,000 km of this door, so we are honest
+          about the word <em>local</em>. What we can promise is a short, boring supply
+          chain and the shortest possible last mile.
+        </p>
+        <div class="cards">
+          <article class="card">
+            <h3>Green coffee</h3>
+            <p>Arrives twice a year by resupply vessel. Stored cold, which — to be fair — requires no effort at all.</p>
+          </article>
+          <article class="card">
+            <h3>Roasted here</h3>
+            <p>A 5 kg drum roaster in the back room. Small batches, because the whole station is a small batch.</p>
+          </article>
+          <article class="card">
+            <h3>Water</h3>
+            <p>Melted from ice cut behind the ridge. Genuinely local. Genuinely the best part.</p>
+          </article>
+          <article class="card">
+            <h3>Goods</h3>
+            <p>Mugs, caps and knitwear made by the people who overwinter here. Stock is whatever got finished.</p>
+          </article>
+        </div>
+      </div>
+      <div class="sourcing-art" aria-hidden="true">
+        <svg viewBox="0 0 400 400" width="220" height="220"><g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M186 60 C 176 44, 196 36, 186 20" opacity=".5"/><path d="M214 66 C 204 50, 224 42, 214 26" opacity=".35"/><path d="M130 120 H270 L226 200 H174 Z"/><path d="M148 140 H252" opacity=".45"/><path d="M144 236 H256 L242 320 A18 18 0 0 1 224 336 H176 A18 18 0 0 1 158 320 Z"/><path d="M256 254 A28 28 0 0 1 256 302" opacity=".8"/><path d="M118 358 H282" opacity=".55"/><path d="M200 206 V226" opacity=".6"/></g></svg>
+      </div>
+    </div>
+  </section>
+
+  <section id="visit" class="visit">
+    <header class="section-head">
+      <p class="eyebrow">Visit</p>
+      <h2>If you happen to be nearby</h2>
+    </header>
+    <div class="visit-grid">
+      <div class="info">
+        <h3>Hours</h3>
+        <p>Summer season · 06:00 – 18:00 daily<br>Polar night · 08:00 – 14:00, and later if the lamp is on</p>
+      </div>
+      <div class="info">
+        <h3>Where</h3>
+        <p>Ridge Two, past the fuel bladders<br>Look for the only warm window</p>
+      </div>
+      <div class="info">
+        <h3>Getting here</h3>
+        <p>Foot, tracked vehicle, or an eight-hour flight you did not book yourself</p>
+      </div>
+      <div class="info">
+        <h3>Contact</h3>
+        <p>hello@example.invalid<br>Radio, channel 4 (imaginary)</p>
+      </div>
+    </div>
+    <p class="visit-note">
+      Reservations are not taken, not required, and not possible — this café does not exist.
+    </p>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="foot-inner">
+    <div>
+      <p class="foot-brand">Alpine Ridge Coffee Roasters</p>
+      <p class="foot-small">A fictional café in Antarctica.</p>
+    </div>
+    <div class="foot-legal">
+      <p>
+        This site is a <strong>test fixture</strong>: a made-up brand used to exercise
+        website tooling. It is not affiliated with, endorsed by, or intended to resemble
+        any real company, café, roastery, research station, or person. All names, prices,
+        hours and claims are invented. Illustrations are original line art made for this page.
+      </p>
+      <p class="foot-small">No goods or services are offered. No orders can be placed. No data is collected.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

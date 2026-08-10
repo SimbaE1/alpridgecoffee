@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Line illustration of a pour-over brewer and cup">
+  <g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- steam -->
+    <path d="M186 60 C 176 44, 196 36, 186 20" opacity=".5"/>
+    <path d="M214 66 C 204 50, 224 42, 214 26" opacity=".35"/>
+    <!-- dripper -->
+    <path d="M130 120 H270 L226 200 H174 Z"/>
+    <path d="M148 140 H252" opacity=".45"/>
+    <!-- server / cup -->
+    <path d="M144 236 H256 L242 320 A18 18 0 0 1 224 336 H176 A18 18 0 0 1 158 320 Z"/>
+    <path d="M256 254 A28 28 0 0 1 256 302" opacity=".8"/>
+    <!-- saucer -->
+    <path d="M118 358 H282" opacity=".55"/>
+    <!-- drip -->
+    <path d="M200 206 V226" opacity=".6"/>
+  </g>
+</svg>
