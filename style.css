@@ -210,6 +210,21 @@ a { color: inherit; }
   color: var(--brass);
 }
 
+.contact-line {
+  font-family: var(--serif);
+  font-size: clamp(1.05rem, 2.2vw, 1.45rem);
+  margin: 1.6rem 0 .8rem;
+  word-break: break-word;
+}
+.contact-line a {
+  color: var(--brass);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(217, 192, 138, .4);
+  padding-bottom: .15em;
+  transition: color .2s, border-color .2s;
+}
+.contact-line a:hover { color: var(--paper); border-color: var(--paper); }
+
 /* ---------- menu ---------- */
 
 .menu { background: var(--ink-2); border-top: 1px solid var(--line); }
@@ -325,6 +340,8 @@ a { color: inherit; }
 .foot-small { font-size: .8rem; color: var(--frost-dim); margin: 0; }
 .foot-legal p { font-size: .84rem; color: var(--frost-dim); line-height: 1.7; }
 .foot-legal strong { color: var(--brass); }
+.foot-small a, .foot-legal a { color: var(--brass); text-decoration: none; border-bottom: 1px solid rgba(217, 192, 138, .35); }
+.foot-small a:hover, .foot-legal a:hover { color: var(--paper); border-color: var(--paper); }
 
 /* ---------- responsive ---------- */
 
