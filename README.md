@@ -1,16 +1,16 @@
 # alpridgecoffee
 
-Static site for **Alpine Ridge Coffee Roasters** — a concept for a small, simple
-café and roastery in Antarctica.
+Static site for **Alpine Ridge Coffee Roasters** — an imagined café and roastery
+in Antarctica.
 
-> **The café does not exist.** It has not been built. There is no shop, no roaster
-> and no coffee. The site describes what it would be and states plainly what stands
-> in the way. Nothing is for sale, no bookings or deposits are taken, and no
-> investment is being raised. It is not affiliated with, endorsed by, or meant to
-> resemble any real company, café, roastery, research station, national programme
-> or person.
+> **The café does not exist.** It isn't real — not yet, anyway. There is no shop,
+> no roaster and no coffee; the page describes the place as though you could walk
+> in, and says plainly that you can't. Nothing is for sale, nothing is being built,
+> and no orders, bookings or investment are taken. It is not affiliated with,
+> endorsed by, or meant to resemble any real company, café, roastery, research
+> station, national programme or person.
 
-Contact: ezra.l.allison+alpridgecoffee@gmail.com
+There are no contact details on the site, by design — there is nobody to contact.
 
 ## Contents
 
@@ -35,8 +35,8 @@ python3 -m http.server 8000
 Served by GitHub Pages from the `main` branch root:
 <https://simbae1.github.io/alpridgecoffee/>
 
-The page currently carries `<meta name="robots" content="noindex, nofollow">`.
-Remove that line if you want it indexed by search engines.
+The page carries `<meta name="robots" content="noindex, nofollow">`. Remove that
+line if you want it indexed by search engines.
 
 ## License
 
